@@ -1,0 +1,8 @@
+[package]
+name = "lbrfcgi"
+version = "0.1.0"
+authors = ["computermouth <computermouth@crunchbangplusplus.org>"]
+
+[dependencies]
+libc = "0.2.15"
+fcgi = { git= "https://github.com/computermouth/rust-fcgi.git" }
